@@ -17,9 +17,13 @@
 	.menu-list li>a {
 		font-size: 18px;
 	}
+
+.about h2{
+
+	text-align:center;
 }
 
-
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
@@ -54,9 +58,36 @@ display: none;
 	text-align:left;
 }
 .description>span{
-	color:#FFF;
+	color: #f3f3f3;
 }
-
+.description-about {
+    width: 36%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #6f6969;
+    text-align: left;
+    margin: 0 auto;
+    display:block;
+}
+.comments-about-wrapper {
+    width: 32%;
+    margin: 5% 32%;
+    text-align: left;
+    font-size: 15px;
+     float: none;
+}
+.about-picture {
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+.comments-about-wrapper .comments-about,
+.description-about .description-invisible-block{
+	display:none;
+}
+.details{
+	display:block;
+}
 }
 @media only screen and (max-width : 572px) {
 	.description{
@@ -79,3 +110,14 @@ display: none;
 	.description{
 	width: 72%;
 	}
+
+	.about-picture {
+   
+    width: 60%;
+}
+
+.comments-about-wrapper {
+    
+    font-size: 1.7vw;
+   
+}
