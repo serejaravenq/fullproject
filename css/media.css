@@ -1,8 +1,18 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+	.services-wrapper h2{
 
+		margin-left: 0;
+	}
+	.description-services{
+		margin-left: 0;
+	}
 
+	.underdescription-services{
+
+		margin: 2% 0;
+	}
 }
 @media only screen and (max-width : 1054px) {
 

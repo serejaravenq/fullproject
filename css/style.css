@@ -203,3 +203,59 @@ margin: -5px 5px 0 -15px;
 
 	margin:-2px 0;
 }
+
+.services-wrapper {
+    width: 75%;
+    font-size: 18px;
+    margin: 10% auto;
+}
+.services-wrapper h2 {
+
+    font-size: 30px;
+    margin-left: 13%;
+}
+
+.description-services {
+
+    display: block;
+    font-size: 19px;
+    margin-left: 13%;
+}
+
+.services-wrapper .underline {
+    margin: -3px 5px 0 0;
+    border: 1px solid #ca870e;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.underdescription-services{
+    margin: 2% 13%;
+    display: inline-block;
+}
+.underdescription-services .underline{
+
+    display: block;
+}
+
+.services-wrapper img{
+    width: 100%;
+    height: 225px;
+}
+
+.services-wrapper h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services-info {
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: #6f6969;
+}
+
+.services-wrapper h3 .underline{
+    margin: 0;
+    display:block;
+}
